@@ -85,7 +85,7 @@ section .title::after {
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: crimson;
+    color: #f59b00bb;;
     padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -113,7 +113,7 @@ section .title::after {
 }
 
 .navbar .logo a {
-    font-size: 35px;
+    font-size: 20px;
     font-weight: 600;
 }
 
@@ -123,7 +123,7 @@ section .title::after {
 }
 
 .navbar.sticky .logo a span {
-    color: crimson;
+    color: #f59b00bb;;
 }
 
 .navbar.sticky .logo a {
@@ -150,7 +150,7 @@ section .title::after {
 }
 
 .navbar.sticky .menu li a:hover {
-    color: crimson;
+    color: #f59b00bb;
 }
 
 /* menu btn styling */
@@ -165,7 +165,7 @@ section .title::after {
     position: fixed;
     height: 45px;
     width: 42px;
-    background: crimson;
+    background: #ADAAAD;
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -231,7 +231,7 @@ section .title::after {
 }
 
 .home .home-content .text-3 span {
-    color: crimson;
+    color: #ADAAAD;
     font-weight: 500;
 }
 
@@ -252,8 +252,8 @@ section .title::after {
     color: #ffffff;
     background: #F59D00;
     transition: 300ms;
-  border: 0.5px solid #ffffff;
-    
+    border: 0.5px solid #ffffff;
+
 
 }
 
@@ -284,7 +284,7 @@ section .title::after {
 }
 
 .about .about-content .right .text span {
-    color: crimson;
+    color: #ADAAAD;
 }
 
 .about .about-content .right p {
@@ -293,22 +293,22 @@ section .title::after {
 
 .about .about-content .right a {
     display: inline-block;
-    background: crimson;
+    background: #f59b00bb;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: crimson;
-    border: 0.5px solid crimson;
+    border: #ADAAAD;
+    border: 0.5px solid #F59D00;
     transition: all 0.3s ease;
 }
 
 .about .about-content .right a:hover {
     color: #ffffff;
     background: #F59D00;
-    transition: 300ms;
+    transition: 500ms;
     border: none;
 }
 
@@ -341,7 +341,7 @@ section .title::after {
 }
 
 .services .serv-content .card:hover {
-    background: #F59D00;
+    background: #f59b00bb;
 }
 
 .services .serv-content .card .box {
@@ -354,7 +354,7 @@ section .title::after {
 
 .services .serv-content .card i {
     font-size: 50px;
-    color: crimson;
+    color: #f59b00bb;
     transition: color 0.3s ease;
 }
 
@@ -371,7 +371,7 @@ section .title::after {
 /* skills section styling */
 
 .skills .title::after {
-    content: "o que eu sei";
+    content: "que eu sei";
 }
 
 .skills .skills-content .column {
@@ -390,14 +390,14 @@ section .title::after {
 
 .skills .skills-content .left a {
     display: inline-block;
-    background: crimson;
+    background: #f59b00bb;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 0.5px solid crimson;
+    border: 0.5px solid #ADAAAD;
 
     transition: all 0.3s ease;
 
@@ -439,7 +439,7 @@ section .title::after {
     height: 100%;
     left: 0;
     top: 0;
-    background: crimson;
+    background: #f59b00bb;
 }
 
 .skills-content .right .html::before {
@@ -468,7 +468,8 @@ section .title::after {
 }
 
 .teams .carousel .card {
-    background: #222;
+    background: #ffff;
+    color: #111;
     border-radius: 6px;
     padding: 25px 35px;
     text-align: center;
@@ -477,7 +478,7 @@ section .title::after {
 }
 
 .teams .carousel .card:hover {
-    background: #F59D00;
+    background: #f59b00bb;
 }
 
 .teams .carousel .card .box {
@@ -503,7 +504,7 @@ section .title::after {
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid crimson;
+    border: 5px solid #ADAAAD;
     transition: all 0.3s ease;
 }
 
@@ -522,7 +523,7 @@ section .title::after {
     margin: 0 5px;
     outline: none !important;
     border-radius: 50%;
-    border: 2px solid crimson !important;
+    border: 2px solid #f59b00bb !important;
     transition: all 0.3s ease;
 }
 
@@ -533,12 +534,12 @@ section .title::after {
 
 .owl-dot.active,
 .owl-dot:hover {
-    background: crimson !important;
+    background: #f59b00bb !important;
 }
 
 /* contact section styling */
 .contact .title::after {
-    content: "fale comigo";
+    content: "e fale comigo";
 }
 
 .contact .contact-content .column {
@@ -571,7 +572,7 @@ section .title::after {
 
 .contact .contact-content .row i {
     font-size: 25px;
-    color: crimson;
+    color: #ADAAAD;
 }
 
 .contact .contact-content .info .head {
@@ -641,8 +642,8 @@ section .title::after {
     border-radius: 6px;
     cursor: pointer;
     flex-wrap: nowrap;
-    background: crimson;
-    border: 0.5px solid crimson;
+    background: #f59b00bb;
+    border: 0.5px solid #ADAAAD;
     transition: all 0.3s ease;
 }
 
@@ -662,7 +663,7 @@ footer {
 }
 
 footer span a {
-    color: crimson;
+    color: #f59b00bb;
     text-decoration: none;
 }
 
