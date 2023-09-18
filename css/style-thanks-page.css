@@ -1,0 +1,38 @@
+body {
+margin: 0 auto;
+box-sizing: border-box;
+
+}
+
+.container-gif {
+    width: 500px;
+    height: 500px;
+    margin: 30px auto;
+    background-image: url(/images/Self\ confidence.gif);
+}
+
+.message-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.grateful {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: xx-large;
+    text-align: center;
+    padding: 0 5px;
+
+}
+
+.message {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 0 5px;
+
+}
