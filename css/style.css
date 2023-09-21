@@ -112,22 +112,15 @@ section .title::after {
     justify-content: space-between;
 }
 
-.navbar .logo a {
-    font-size: 20px;
-    font-weight: 600;
-}
-
 .navbar .logo a span {
     color: #fff;
+    font-size: 20px;
+    font-weight: 600;
     transition: all 0.3s ease;
 }
 
 .navbar.sticky .logo a span {
     color: #f59b00bb;;
-}
-
-.navbar.sticky .logo a {
-    color: #fff;
 }
 
 .navbar .menu li {
@@ -443,23 +436,23 @@ section .title::after {
 }
 
 .skills-content .right .html::before {
-    width: 70%;
-}
-
-.skills-content .right .css::before {
-    width: 60%;
-}
-
-.skills-content .right .js::before {
     width: 85%;
 }
 
+.skills-content .right .css::before {
+    width: 75%;
+}
+
+.skills-content .right .js::before {
+    width: 69%;
+}
+
 .skills-content .right .NODE::before {
-    width: 60%;
+    width: 63%;
 }
 
 .skills-content .right .mysql::before {
-    width: 70%;
+    width: 49%;
 }
 
 /* Inspirations section styling */

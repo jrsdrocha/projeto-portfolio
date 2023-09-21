@@ -1,4 +1,5 @@
 /* responsive media query start */
+
 @media (max-width: 1104px) {
     .about .about-content .left img {
         height: 350px;
@@ -15,7 +16,7 @@
 @media (max-width: 947px) {
     .menu-btn {
         display: block;
-        z-index: 999;
+        z-index: 1999;
     }
 
     .menu-btn i.active:before {
@@ -36,6 +37,8 @@
 
     .navbar .menu.active {
         left: 0;
+        transition: 0.9s;
+
     }
 
     .navbar .menu li {
