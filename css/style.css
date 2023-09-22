@@ -110,12 +110,13 @@ section .title::after {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 
 .navbar .logo a span {
-    color: #fff;
-    font-size: 20px;
-    font-weight: 600;
+    color:  #f1f1f1;
+    font-size: 25px;
+    font-weight: 700;
     transition: all 0.3s ease;
 }
 
@@ -130,9 +131,9 @@ section .title::after {
 
 .navbar .menu li a {
     display: block;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 500;
+    color: #f1f1f1;
+    font-size: 20px;
+    font-weight: 300;
     margin-left: 25px;
     transition: color 0.3s ease;
 }
@@ -189,68 +190,18 @@ section .title::after {
 .home {
     display: flex;
     background: url("../images/sereia.JPG") no-repeat center;
-    height: 100vh;
-    color: #3771e6;
+    height: 90vh;
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.home .max-width {
-    width: 100%;
-    margin-top: 35%;
-    display: flex;
-    justify-content: end;
-}
-
-.home .max-width .row {
-    margin-right: 0;
-}
-
-.home .home-content .text-1 {
-    font-size: 27px;
-}
-
-.home .home-content .text-2 {
-    font-size: 75px;
-    font-weight: 600;
-    margin-left: -3px;
-}
-
-.home .home-content .text-3 {
-    font-size: 40px;
-    margin: 5px 0;
-}
-
-.home .home-content .text-3 span {
-    color: #ADAAAD;
-    font-weight: 500;
-}
-
-.home .home-content a {
-    display: inline-block;
-    background: #3771e6;
-    color: #fff;
-    font-size: 25px;
-    padding: 12px 30px;
-    margin-top: 20px;
-    font-weight: 400;
-    border-radius: 6px;
-    border: #3771e6;
-    transition: all 0.3s ease;
-}
-
-.home .home-content a:hover {
-    color: #ffffff;
-    background: #F59D00;
-    transition: 300ms;
-    border: 0.5px solid #ffffff;
-
-
 }
 
 /* about section styling */
+.about {
+    padding-top: 20px;
+
+}
+
 .about .title::after {
     content: "quem sou eu";
 }
