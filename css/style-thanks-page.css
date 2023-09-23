@@ -1,29 +1,25 @@
 body {
 margin: 0 auto;
 box-sizing: border-box;
+background-color: #e4e4e4;
 
-}
 
-.container-gif {
-    width: 500px;
-    height: 500px;
-    margin: 30px auto;
-    background-image: url(/images/Self\ confidence.gif);
 }
 
 .message-container {
+
     display: flex;
     flex-direction: column;
     text-align: center;
     width: 500px;
-    margin: 0 auto;
-    padding: 5px;
+    justify-content: center;
+    margin: 100px auto;
 }
 
 .grateful {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
-    font-size: xx-large;
+    font-size: 50px;
     text-align: center;
     padding: 0 5px;
 
@@ -31,6 +27,7 @@ box-sizing: border-box;
 
 .message {
     font-family: 'Courier New', Courier, monospace;
+    color: #4a4a4a;
     font-weight: bold;
     margin: 0 auto;
     padding: 0 5px;
