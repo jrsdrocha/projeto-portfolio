@@ -20,6 +20,8 @@ document.addEventListener("DOMContentLoaded", function () {
         window.scrollTo(0, 0);
         // removing smooth scroll on slide-up button click
         document.querySelector("html").style.scrollBehavior = "auto";
+        document.querySelector('.menu').classList.toggle("active");
+        document.querySelector('.menu-btn i').classList.toggle("active");
     });
 
     document.querySelectorAll('.navbar .menu li a').forEach(function (element) {

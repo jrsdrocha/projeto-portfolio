@@ -120,6 +120,16 @@ section .title::after {
     transition: all 0.3s ease;
 }
 
+.navbar .logo{
+    color:  #f1f1f1;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.navbar .logo-span {
+    display: none;
+}
+
 .navbar.sticky .logo a span {
     color: #f59b00bb;;
 }
